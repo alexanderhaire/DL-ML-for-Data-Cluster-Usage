@@ -1,0 +1,16 @@
+flask:
+  port: 5001
+
+lstm:
+  timesteps: 6
+  features: 1
+  units: 100
+  output_units: 1
+  dropout_rate: 0.2
+  optimizer: adam
+
+training:
+  samples: 100
+  epochs: 10
+  batch_size: 64
+  retrain_interval: 3600
